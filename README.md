@@ -53,7 +53,4 @@ Detta gör det lättare att hitta material från varje lektion och hålla ordnin
 <sub>— The Eye is ever watchful. Speak, if you dare.</sub>
 </div>
 
-<div align="right" style="font-family:monospace; color:#444;">
-<sub>/ Said, saluting Sauron, his good old friend</sub>
-</div>
-
+<div align="right" 
