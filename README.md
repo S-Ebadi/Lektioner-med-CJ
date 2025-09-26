@@ -40,9 +40,22 @@ Detta gör det lättare att hitta material från varje lektion och hålla ordnin
 ---
 
 
+
 ---
 
-> **Do not follow me. This path winds through shadow and flame, where few return unchanged. There are no guarantees in my journey—only the will to seek, the ambition to build, and the desire to master what others fear. One code to rule them all, one repo to find them, one commit to bring them all and in the darkness bind them.**
+<div align="center">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Sauron%27s_Eye.svg" alt="Eye of Sauron" width="80"/>
+</div>
 
+<blockquote style="font-style:italic; color:#b8860b; border-left: 4px solid #222; background: #181818; padding: 1em; margin: 2em 0;">
+<b>Do not follow me. This path winds through shadow and flame, where few return unchanged. There are no guarantees in my journey—only the will to seek, the ambition to build, and the desire to master what others fear. One code to rule them all, one repo to find them, one commit to bring them all and in the darkness bind them.</b>
+</blockquote>
+
+<div align="center" style="color:#e25822; font-weight:bold;">
 <sub>— The Eye is ever watchful. Speak, if you dare.</sub>
+</div>
+
+<div align="right" style="font-family:monospace; color:#444;">
+<sub>/ Said, saluting Sauron, his good old friend</sub>
+</div>
 
