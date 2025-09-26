@@ -39,7 +39,7 @@ Detta gör det lättare att hitta material från varje lektion och hålla ordnin
 
 ---
 
-> ** Do not follow me. There is no guarentees. Only commitment. I just want to help. If you can match that then say hello instead **
+> ** Do not follow me. There is no guarentees in my journey. Only commitment and ambition plus an desire to one they rule them all. If you can match that then say hello instead  **
 
 / Said
 
