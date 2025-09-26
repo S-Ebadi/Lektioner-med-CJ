@@ -25,5 +25,21 @@ Här samlas **jobb, övningar och projekt** som bygger på föreläsningar med C
 
 ---
 
-> **Allt material är inspirerat av och baserat på föreläsningar med Carl-Johan.**
+## Struktur och katalogisering
+
+Varje föreläsning har en egen katalog där materialet från den lektionen sparas. Uppgifter vi fått under lektionerna samlas i mappen `Övningsuppgifter`.
+
+**Exempel:**
+
+- `Föreläsning22-9/` – Innehåller material från föreläsningen den 22/9
+- `Föreläsning29-9/` – Innehåller material från föreläsningen den 29/9
+- `Övningsuppgifter/` – Här lägger jag alla övningsuppgifter vi fått
+
+Detta gör det lättare att hitta material från varje lektion och hålla ordning på uppgifterna.
+
+---
+
+> ** Allt sker på eget ansvar **
+
+/ Said
 
