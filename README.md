@@ -39,7 +39,10 @@ Detta gör det lättare att hitta material från varje lektion och hålla ordnin
 
 ---
 
-> ** Do not follow me. There is no guarentees in my journey. Only commitment and ambition plus an desire to one they rule them all. If you can match that then say hello instead  **
 
-/ Said
+---
+
+> **Do not follow me. This path winds through shadow and flame, where few return unchanged. There are no guarantees in my journey—only the will to seek, the ambition to build, and the desire to master what others fear. One code to rule them all, one repo to find them, one commit to bring them all and in the darkness bind them.**
+
+<sub>— The Eye is ever watchful. Speak, if you dare.</sub>
 
