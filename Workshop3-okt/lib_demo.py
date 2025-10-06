@@ -27,7 +27,7 @@ root.title("Demo")
 def hello():
     print("Hello, Tkinter!")
 
-btn = tk.Button(root, text="Click Me", command=hello)
+btn = tk.Button(root, text="Sahand va snygg....", command=hello)
 btn.pack()
 
 root.mainloop()
