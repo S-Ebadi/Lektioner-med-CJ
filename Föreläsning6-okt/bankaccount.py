@@ -22,14 +22,25 @@ class BankAccount:
     def show_balance(self):
         print(f"{self.owner}s balance is: {self.balance} SEK")
 
-    
+    def transfer_to(self, other_account, amount):
+        if amount > self.balance:
+            print("Insufficient funds for transfer")
+        else:
+           self.balance -= amount
+           other_account.balance += amount
+           print(f"Transferred {amount} SEK from {self.owner} to {other_account.owner}")
+
+
 # Create bank accounts
 account1 = BankAccount("Said", 1000)
 account2 = BankAccount("Christian", 100)
 
 # Use methods
-account1.deposit(999000)
-account2.withdraw(99)
+account1.deposit(0)
+account2.withdraw(0)
+
+# Transfer money
+account1.transfer_to(account2, 800)
 
 # Show balances
 account1.show_balance()
