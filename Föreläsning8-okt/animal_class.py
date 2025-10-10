@@ -86,3 +86,4 @@ while True:
         break
 
 print(f"\nYou created {len(animal_list)} animals! Thanks for visiting the zoo! 🦁")
+
