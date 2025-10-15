@@ -113,35 +113,34 @@ def main():
         valid_input = False
         while not valid_input:
             menu_choice = input("Choose menu option 1-6: ")
-            match menu_choice:
-                case "1":
-                    transaction_type = input("Type of transaction ((i)ncome/(e)xpense): ").strip().lower()
-                    amount = input("Transaction amount (kr): ")
-                    category = input("Category (Food/Transport/Salary/Rent): ").lower()
-                    description = input("Optional description: ")
-                    date = input("Optional date for transaction: ")
-                    new_transaction = Transaction(transaction_type, amount, category, description, date)
-                    transactions = add_transaction(transactions, new_transaction)
-                    valid_input = True
-                case "2":
-                    current_balance = calculate_balance(transactions)
-                    show_balance(current_balance)
-                    show_transactions_history(transactions)
-                    valid_input = True
-                case "3":
-                    create_budget()
-                    valid_input = True
-                case "4":
-                    show_budgets()
-                    valid_input = True
-                case "5":
-                    start_budget_monitoring()
-                    valid_input = True
-                case "6":
-                    write_financial_data_to_file()
-                    quit()
-                case _:
-                    print("Invalid choice, please choose again.")
+            if menu_choice == "1":
+                transaction_type = input("Type of transaction ((i)ncome/(e)xpense): ").strip().lower()
+                amount = input("Transaction amount (kr): ")
+                category = input("Category (Food/Transport/Salary/Rent): ").lower()
+                description = input("Optional description: ")
+                date = input("Optional date for transaction: ")
+                new_transaction = Transaction(transaction_type, amount, category, description, date)
+                transactions = add_transaction(transactions, new_transaction)
+                valid_input = True
+            elif menu_choice == "2":
+                current_balance = calculate_balance(transactions)
+                show_balance(current_balance)
+                show_transactions_history(transactions)
+                valid_input = True
+            elif menu_choice == "3":
+                create_budget()
+                valid_input = True
+            elif menu_choice == "4":
+                show_budgets()
+                valid_input = True
+            elif menu_choice == "5":
+                start_budget_monitoring()
+                valid_input = True
+            elif menu_choice == "6":
+                write_financial_data_to_file(transactions)
+                quit()
+            else:
+                print("Invalid choice, please choose again.")
 
 
 
